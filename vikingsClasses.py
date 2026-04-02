@@ -78,7 +78,7 @@ class Saxon(Soldier):
                 if random.random() < self.resurrection_chance:
                     self.health = 100
                     self.strength = 150
-                    return f"{self.name} has resurrected by Odin's will and returns to battle more strongly!"
+                    return f"{self.name} has resurrected by Woden's will and returns to battle more strongly!"
                 else:
                     return f"{self.name} has died in act of combat"
 
